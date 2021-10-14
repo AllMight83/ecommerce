@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@900&display=swap');
+@import'../utils/variables';
+
+.buscar {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    border: 2px solid $primary-color;
+    border-radius: 10px;
+    width: 500px;
+    outline: none;
+    &::placeholder{
+        color: $primary-color;
+        font-family: $font;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+}
+
+.botones {
+    display: flex;
+    margin-top: 50px;
+    position: fixed;
+    .btn1, .btn2 {
+        margin-top: 50px;
+        margin-right: 20px;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 900;
+        border-radius: 10px;
+        color: #C37B89;
+        background-color: whitesmoke;
+        letter-spacing: 2px;
+        &:hover {
+            border: 1px solid $primary-color;
+        }
+    }
+  
+}
+
+
+

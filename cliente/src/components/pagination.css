@@ -1,0 +1,26 @@
+.pagination {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.pagination li {
+    padding: 10px;
+    margin-right: 3px;
+    border: 1px solid rgb(124, 120, 120);
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.pagination li.active {
+    background: #79b4b7f6;
+    color: white;
+}
+
+.aviso {
+    color: red;
+    font-size: 40px;
+}

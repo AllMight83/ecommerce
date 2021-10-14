@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@600&family=PT+Serif:ital,wght@1,700&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@900&display=swap');
+@import'../utils/variables';
+@import '../utils/mixins';
+
+
+.tgview {
+    border: 1px solid #FFE1AF;
+    background-color: #FFE1AF;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 1px 12px 12px 0px rgba(0,0,0,0.53);
+    border-radius: 10px;
+}
+
+.tituloview {
+   padding: 50px;
+   text-transform: uppercase;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 3px;
+   color: #6D8299;
+}
+
+.desview {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.volver {
+    margin: 30px;
+    @include position;
+    
+    a{
+        color: whitesmoke;
+        letter-spacing: 2px;
+    }
+}

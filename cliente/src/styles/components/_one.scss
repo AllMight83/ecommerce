@@ -1,0 +1,55 @@
+@import '../utils/variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=PT+Serif:ital,wght@1,700&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@900&display=swap');
+@import '../utils/mixins';
+
+.results-busqueda {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 200px;
+    align-content: center;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    border: 1px solid #79b4b7f6; 
+    border-radius: 10px;
+    box-shadow: 1px 12px 12px 0px rgba(0,0,0,0.53);
+    background-color: #79b4b7f6;
+}
+
+.title {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.imagen {
+    margin-bottom: 20px;
+}
+
+.precio {
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #52734D;
+    font-size: 20px;
+}
+
+.autor {
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #440A67;
+}
+
+    
+.entrar {
+    @include position;
+    
+    a{
+        color: whitesmoke;
+        letter-spacing: 2px;
+    }
+}
+
