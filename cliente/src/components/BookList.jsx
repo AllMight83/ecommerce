@@ -180,7 +180,7 @@ const BookList = () => {
                  
                </div>
 
-              {libro.length === 0 && <h3>SIN RESULTADOS</h3>}
+              {libro.length === 0 && <h3 className="error">{`SIN RESULTADOS PARA "${search}"`}</h3>}
     
         </div>
     </>
