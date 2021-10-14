@@ -45,39 +45,6 @@ const libroController = {
 
 }
 
-// const libroController = {
-//     mostrar: async (req, res) => {
-//         try {
-//             const srch = {$text: {$search: req.query.title}};
-//             console.log(srch)
-//             const features = new APIfeatures(Libro.find({$text: {$search: ''}}), req.query).filtering()
-
-//             const libros = await features.query
-
-
-//             res.json(libros)    
-
-//         } catch (error) {
-//             return res.status(500).json({msg: error.message})
-//         }
-//     }
-
-// }
-
-// const libroController = {
-//     mostrar: async (req, res) => {
-//         try {
-//             const libros = await Libro.find()
-
-
-//             res.json(libros)    
-
-//         } catch (error) {
-//             return res.status(500).json({msg: error.message})
-//         }
-//     }
-
-// }
 
 
 

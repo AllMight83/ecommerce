@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import BookList from '../components/BookList';
 import Details from './Details'
-import One from '../components/One'
+
 
 const Main = () => {
     return (

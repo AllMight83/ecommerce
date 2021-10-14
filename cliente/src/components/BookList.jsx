@@ -121,11 +121,6 @@ const BookList = () => {
      }
  
 
-    
-
-   
-
-
     return (
             
         <>

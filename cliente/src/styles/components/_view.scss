@@ -32,6 +32,7 @@
 .volver {
     margin: 30px;
     @include position;
+    margin-bottom: 100px;
     
     a{
         color: whitesmoke;

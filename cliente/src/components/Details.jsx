@@ -26,14 +26,6 @@ const Details = () => {
     }
 
 
-    
-    // const printCosas = () => {
-    //     return datos.map((item) => {
-    //         <p key={item._id}>{item.title}</p>
-        
-        
-    //     })
-    // }
 
     const printCosas = () => {
         return datos.map((item, i)=> <View
