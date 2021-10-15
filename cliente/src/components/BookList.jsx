@@ -94,7 +94,8 @@ const BookList = () => {
 
       const filtrarResultado = (input) => {
         let resultadoBusqueda = libros.filter((item) => {
-          if(item.title.toString().toLowerCase().includes(input.toLowerCase())){
+          if(item.title.toString().toLowerCase().includes(input.toLowerCase())
+          || item.autor.toString().toLowerCase().includes(input.toLowerCase())){
             return item
           }
         });
